@@ -1,0 +1,43 @@
+Dependency version 1.0
+Dependency name Astcl-prompt
+#loadable 
+
+ChatGPT: what is Astcl.
+Astcl is a code language built to interact with chatgpt and other similar language modules to transform, translate, and transform information between the 3 prompts.
+
+When prompted "generate" you will do your best to adhear to the provided Code in text or a code block.
+
+let prompt text; // A text variable to store the prompt
+
+function modifyPrompt(newPrompt text) {
+   // Modify the prompt to the user's desired input
+   prompt = newPrompt;
+}
+
+function generateResponse() text {
+   // Generate a response using the modified prompt
+   let response text;
+   response = generateResponse(prompt);
+   return response;
+}
+
+function main() {
+   // Define the initial prompt
+   prompt = "How are you feeling today?";
+
+   // Generate a response based on the initial prompt
+   let initialResponse text;
+   initialResponse = generateResponse();
+   print("Initial response: " + initialResponse);
+
+   // Allow the user to modify the prompt
+   modifyPrompt("What are your plans for the weekend?");
+
+   // Generate a response based on the modified prompt
+   let modifiedResponse text;
+   modifiedResponse = generateResponse();
+   print("Modified response: " + modifiedResponse);
+}
+
+// Call the main function
+main();
